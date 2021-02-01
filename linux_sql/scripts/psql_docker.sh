@@ -48,9 +48,11 @@ case $command in
     exit $?
   ;;
   *)
+
     echo "invalid command"
     exit 1
   ;;
+
 esac
 
 exit 0
