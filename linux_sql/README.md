@@ -40,7 +40,7 @@ crontab -l
 ## Implemenation
 Discuss how you implement the project.
 
-### Architecture
+## Architecture 
 ![Architecture of Project](assets/architecture.png)
 
 ### Scripts
