@@ -3,7 +3,7 @@ package ca.jrvs.apps.practice;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class RegexExcImplementation implements RegexExc {
+public class RegexExcImp implements RegexExc {
 
     /**
      * Return true if filename extension is jpg or jpeg (Case insensitive)

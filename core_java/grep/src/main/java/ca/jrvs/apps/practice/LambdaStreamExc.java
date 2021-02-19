@@ -54,9 +54,12 @@ public interface LambdaStreamExc {
      */
     <E> List<E> toList(Stream<E> stream);
 
+    List<Integer> toList(IntStream intStream);
+
     /**
      * Convert a intStream to list
-     * @param intStream
+     * @param start
+     * @param end
      * @return
      */
     IntStream createIntStream(int start, int end);
@@ -96,7 +99,7 @@ public interface LambdaStreamExc {
      * @param suffix suffix str
      * @return
      */
-    Consumer<String> getLamdaPrinter(String prefix, String suffix);
+    Consumer<String> getLambdaPrinter(String prefix, String suffix);
 
     /**
      * Print each message with a given printer

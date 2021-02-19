@@ -1,8 +1,11 @@
 package ca.jrvs.apps.practice;
 
-import static java.lang.Math.sqrt;
-
 import java.util.*;
+import java.util.function.Consumer;
+import java.util.stream.Collectors;
+import java.util.stream.DoubleStream;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class LambdaStreamExcImp implements LambdaStreamExc{
 
@@ -16,7 +19,7 @@ public class LambdaStreamExcImp implements LambdaStreamExc{
      */
     @Override
     public Stream<String> createStrStream(String... strings) {
-        return Arrays.stream();
+        return Arrays.stream(strings);
     }
 
     /**
@@ -110,6 +113,7 @@ public class LambdaStreamExcImp implements LambdaStreamExc{
         return intStream.filter(number -> number % 2 != 0);
     }
 
+
     /**
      * Return a lambda function that print a message with a prefix and suffix This lambda can be
      * useful to format logs
@@ -130,6 +134,7 @@ public class LambdaStreamExcImp implements LambdaStreamExc{
     public Consumer<String> getLambdaPrinter(String prefix, String suffix) {
         return (s) -> System.out.println(prefix + s + suffix);
     }
+
 
     /**
      * Print each message with a given printer Please use `getLambdaPrinter` method
