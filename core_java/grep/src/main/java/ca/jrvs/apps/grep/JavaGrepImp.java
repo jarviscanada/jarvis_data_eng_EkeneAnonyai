@@ -1,12 +1,18 @@
 package ca.jrvs.apps.grep;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+
 import org.apache.log4j.BasicConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import static java.nio.file.Paths.*;
 
 
 public class JavaGrepImp implements JavaGrep {
@@ -39,14 +45,7 @@ public class JavaGrepImp implements JavaGrep {
 
     @Override
     public void process() throws IOException {
-        List matchedLines = new ArrayList<String>();
-        for (File file : listFiles(getRootPath())) {
-            for (String line : readLines(file)) {
-                if (containsPattern(line)) {
-                    matchedLines.add(line);
-                }
-            }
-        }
+        List matchedLines = listFiles(getRootPath()).stream().flatMap(file -> readLines(file).stream()).filter(this::containsPattern).collect(Collectors.toList());
         writeToFile(matchedLines);
     }
 
