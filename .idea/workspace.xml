@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc89596b-4ab8-4b44-af74-770529ed6346" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core_java/jdbc/assets/ER.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/SQL-Scripts/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/sql/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/SQL-Scripts/customer.sql" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/sql/customer.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/SQL-Scripts/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/sql/database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/SQL-Scripts/orders.sql" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/sql/orders.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/SQL-Scripts/product.sql" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/sql/product.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/SQL-Scripts/salesperson.sql" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/sql/salesperson.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/SQL-Scripts/stored_proc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/sql/stored_proc.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/CustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/DatabaseConnectionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/JDBCExecutor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/OrderDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/OrderLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/util/DataAccessObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/target/classes/ca/jrvs/apps/util/DataTransferObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pVxrPCsva3m89ZEi7GZMbpv32X" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jdbc [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/core_java/jdbc" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.jdbc [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc89596b-4ab8-4b44-af74-770529ed6346" name="Default Changelist" comment="" />
+      <created>1615282256928</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615282256928</updated>
+      <workItem from="1615282258503" duration="2230000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
