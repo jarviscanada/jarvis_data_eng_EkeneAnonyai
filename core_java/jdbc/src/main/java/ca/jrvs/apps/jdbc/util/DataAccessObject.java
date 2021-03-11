@@ -1,4 +1,4 @@
-package ca.jrvs.apps.twitter.util;
+package ca.jrvs.apps.jdbc.util;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

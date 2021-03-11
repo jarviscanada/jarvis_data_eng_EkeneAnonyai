@@ -1,4 +1,4 @@
-package ca.jrvs.apps.twitter.grep;
+package ca.jrvs.apps.jdbc.grep;
 
 import java.io.File;
 import java.io.IOException;

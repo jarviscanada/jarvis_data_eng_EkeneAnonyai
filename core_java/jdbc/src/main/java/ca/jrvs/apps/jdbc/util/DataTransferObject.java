@@ -1,4 +1,4 @@
-package ca.jrvs.apps.twitter.util;
+package ca.jrvs.apps.jdbc.util;
 
 public interface DataTransferObject {
 

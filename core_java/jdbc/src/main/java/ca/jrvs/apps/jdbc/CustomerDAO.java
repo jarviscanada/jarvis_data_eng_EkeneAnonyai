@@ -1,6 +1,6 @@
-package ca.jrvs.apps.twitter;
+package ca.jrvs.apps.jdbc;
 
-import ca.jrvs.apps.twitter.util.DataAccessObject;
+import ca.jrvs.apps.jdbc.util.DataAccessObject;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

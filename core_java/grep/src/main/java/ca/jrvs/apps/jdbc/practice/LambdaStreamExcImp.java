@@ -1,4 +1,4 @@
-package ca.jrvs.apps.twitter.practice;
+package ca.jrvs.apps.jdbc.practice;
 
 import java.util.*;
 import java.util.function.Consumer;

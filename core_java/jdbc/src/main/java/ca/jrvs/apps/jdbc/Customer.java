@@ -1,6 +1,6 @@
-package ca.jrvs.apps.twitter;
+package ca.jrvs.apps.jdbc;
 
-import ca.jrvs.apps.twitter.util.DataTransferObject;
+import ca.jrvs.apps.jdbc.util.DataTransferObject;
 
 public class Customer implements DataTransferObject {
     private long id;

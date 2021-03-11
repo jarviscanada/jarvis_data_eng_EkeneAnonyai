@@ -1,4 +1,4 @@
-package ca.jrvs.apps.twitter.practice;
+package ca.jrvs.apps.jdbc.practice;
 
 public interface RegexExc {
 
