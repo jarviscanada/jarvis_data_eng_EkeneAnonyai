@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad101052-73be-4f0c-bd98-3b673cb532fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="0b9eca32-184e-4135-b58c-fe1918086b1d" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
@@ -16,7 +15,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_4.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
@@ -79,11 +78,46 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_java/grep/grep.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core_java/jdbc/jdbc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/example/TwitterApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/example/TwitterApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core_java/twitter/target/classes/ca/jrvs/apps/twitter/example/TwitterApiTest.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/dao/CrdDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/dao/helper/HttpHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/example/DTO/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/example/DTO/Dividend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/example/DTO/Financial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/example/JsonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/grep/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/grep/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/grep/JavaGrep.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/twitter/grep/JavaGrep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/grep/JavaGrepImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/twitter/grep/JavaGrepImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/grep/JavaGrepLambdaImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/twitter/grep/JavaGrepLambdaImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/practice/LambdaStreamExc.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/twitter/practice/LambdaStreamExc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/practice/LambdaStreamExcImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/twitter/practice/LambdaStreamExcImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/practice/RegexExc.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/twitter/practice/RegexExc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/practice/RegexExcImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/grep/src/main/java/ca/jrvs/apps/twitter/practice/RegexExcImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/jdbc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/jdbc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/CustomerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/DatabaseConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/DatabaseConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/JDBCExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/JDBCExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/OrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/OrderDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/OrderLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/OrderLine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/sql/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/sql/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/sql/customer.sql" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/sql/customer.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/sql/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/sql/database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/sql/orders.sql" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/sql/orders.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/sql/product.sql" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/sql/product.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/sql/salesperson.sql" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/sql/salesperson.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/sql/stored_proc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/sql/stored_proc.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/util/DataAccessObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/util/DataAccessObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/util/DataTransferObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/jdbc/src/main/java/ca/jrvs/apps/twitter/util/DataTransferObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/twitter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/twitter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/example/TwitterApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/example/TwitterApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/twitter/target/classes/ca/jrvs/apps/example/TwitterApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/twitter/target/classes/ca/jrvs/apps/example/TwitterApiTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/twitter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/twitter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core_java/twitter/twitter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/twitter/twitter.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,24 +125,29 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1paWhrv6NMxPdYHtghAs55fDHRM" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1patnRclFFlV36xBF7IQskTBPuU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -116,10 +155,23 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
-  <component name="RunManager" selected="Application.TwitterApiTest (1)">
-    <configuration name="TwitterApiTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.example.TwitterApiTest" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/service" />
+      <recent name="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/dao/helper" />
+      <recent name="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter" />
+      <recent name="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/controller" />
+      <recent name="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/example/DTO" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TwitterApiTest">
+    <configuration name="JsonParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.example.JsonParser" />
       <module name="twitter" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +184,11 @@
       </method>
     </configuration>
     <configuration name="TwitterApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.twitter.example.TwitterApiTest" />
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.example.TwitterApiTest" />
       <module name="twitter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.jrvs.apps.twitter.example.*" />
+          <option name="PATTERN" value="ca.jrvs.apps.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,29 +207,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="twitter [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/core_java/twitter" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="twitter [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/core_java/twitter" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwitterApiTest (1)" />
         <item itemvalue="Application.TwitterApiTest" />
+        <item itemvalue="Application.JsonParser" />
+        <item itemvalue="Maven.twitter [package]" />
+        <item itemvalue="Maven.twitter [compile]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ad101052-73be-4f0c-bd98-3b673cb532fc" name="Default Changelist" comment="" />
-      <created>1615421804185</created>
+      <changelist id="0b9eca32-184e-4135-b58c-fe1918086b1d" name="Default Changelist" comment="" />
+      <created>1615433195719</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1615421804185</updated>
-      <workItem from="1615421812226" duration="524000" />
+      <updated>1615433195719</updated>
+      <workItem from="1615433198041" duration="5627000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
