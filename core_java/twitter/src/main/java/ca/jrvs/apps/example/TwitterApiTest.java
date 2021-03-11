@@ -1,4 +1,4 @@
-package ca.jrvs.apps.twitter.example;
+package ca.jrvs.apps.example;
 
 import com.google.gdata.util.common.base.PercentEscaper;
 import java.util.Arrays;
@@ -9,8 +9,11 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class TwitterApiTest {
+    static final Logger logger = LoggerFactory.getLogger(TwitterApiTest.class);
 
     private static String CONSUMER_KEY = System.getenv("consumerKey");
     private static String CONSUMER_SECRET = System.getenv("consumerSecret");
@@ -31,12 +34,12 @@ public class TwitterApiTest {
         //sign the request(add headers)
         consumer.sign(request);
 
-        System.out.println("Http Request Headers:");
-        Arrays.stream(request.getAllHeaders()).forEach(System.out::println);
+        logger.debug("Http Request Headers:");
+        Arrays.stream(request.getAllHeaders()).forEach(s -> logger.debug(s.toString()));
 
         HttpClient httpClient = HttpClientBuilder.create().build();
         HttpResponse response = httpClient.execute(request);
-        System.out.println(EntityUtils.toString(response.getEntity()));
+        logger.debug(EntityUtils.toString(response.getEntity()));
 
     }
 
