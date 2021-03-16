@@ -27,8 +27,10 @@ public class TwitterDao implements CrdDao<Tweet, String> {
     private static final String QUERY_SYM = "?";
     private static final String AMPERSAND = "&";
     private static final String EQUAL = "=";
+
+    //Response code
     private static final int HTTP_OK = 200;
-    private final HttpHelper httpHelper;
+    private HttpHelper httpHelper;
 
     @Autowired
     public TwitterDao(HttpHelper httpHelper) {

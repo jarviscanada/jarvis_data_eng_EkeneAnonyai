@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0b9eca32-184e-4135-b58c-fe1918086b1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIComponentScan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLISpringBoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/twitter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/twitter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/dao/TwitterDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/dao/TwitterDao.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1patnRclFFlV36xBF7IQskTBPuU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/service" />
+      <recent name="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/dao/helper" />
+      <recent name="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/twitter" />
+      <recent name="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/controller" />
+      <recent name="$PROJECT_DIR$/core_java/twitter/src/main/java/ca/jrvs/apps/example/DTO" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ca.jrvs.apps.twitter.dao" />
+      <recent name="ca.jrvs.apps.twitter.dao.helper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TwitterServiceUnitTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwitterDaoIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="twitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.twitter.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.jrvs.apps.twitter.dao" />
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.twitter.dao.TwitterDaoIntTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwitterDaoUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="twitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.twitter.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.jrvs.apps.twitter.dao" />
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.twitter.dao.TwitterDaoUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwitterHttpHelperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="twitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.twitter.dao.helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.jrvs.apps.twitter.dao.helper" />
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.twitter.dao.helper.TwitterHttpHelperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwitterServiceIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="twitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.twitter.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.jrvs.apps.twitter.service" />
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.twitter.service.TwitterServiceIntTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwitterServiceUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="twitter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.twitter.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.jrvs.apps.twitter.service" />
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.twitter.service.TwitterServiceUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TwitterHttpHelperTest" />
+      <item itemvalue="JUnit.TwitterDaoIntTest" />
+      <item itemvalue="JUnit.TwitterDaoUnitTest" />
+      <item itemvalue="JUnit.TwitterServiceIntTest" />
+      <item itemvalue="JUnit.TwitterServiceUnitTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TwitterServiceUnitTest" />
+        <item itemvalue="JUnit.TwitterServiceIntTest" />
+        <item itemvalue="JUnit.TwitterDaoUnitTest" />
+        <item itemvalue="JUnit.TwitterDaoIntTest" />
+        <item itemvalue="JUnit.TwitterHttpHelperTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b9eca32-184e-4135-b58c-fe1918086b1d" name="Default Changelist" comment="" />
+      <created>1615433195719</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615433195719</updated>
+      <workItem from="1615433198041" duration="30073000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
