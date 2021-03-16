@@ -8,6 +8,7 @@
 /Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/example/TwitterApiTest.java
 /Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/example/JsonParser.java
 /Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/dao/helper/TwitterHttpHelper.java
+/Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIBean.java
 /Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/controller/TwitterController.java
 /Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/service/Service.java
 /Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/util/JsonUtil.java
@@ -15,7 +16,9 @@
 /Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/util/TweetUtil.java
 /Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/controller/Controller.java
 /Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/model/Tweet.java
+/Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLISpringBoot.java
 /Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/model/Entities.java
 /Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/example/dto/Company.java
 /Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/dao/TwitterDao.java
+/Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/spring/TwitterCLIComponentScan.java
 /Users/ekeneanonyai/jarvis_data_eng_EkeneAnonyai/core_java/twitter/src/main/java/ca/jrvs/apps/twitter/service/TwitterService.java
