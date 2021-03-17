@@ -25,23 +25,40 @@ ekeneanonyai/twitter "post|show|delete" [options]"
 
 # Design
 ## UML diagram
-## explain each component(app/main, controller, service, DAO) (30-50 words each)
+![Twitter UML Diagram](./assets/diagram.png)
+## Components of the Application (app/main, controller, service, DAO)
+The application has four main components:
+- **TwitterCLIApp**: The app/ main class is used to initialize the other components and dependencies based on which command is passed in as an argument.
+- **TwitterController**: The controller layer parses user input from the command line, ensuring it is formatted correctly before passing it on to the service layer
+- **TwitterService**: The service layer checks that the request being sent to the DAO maintains the correct format according to Twitter API standards, such as the length of the tweet and the longitude and latitude.
+- **TwitterDAO**: The Data Access Layer, handles the REST API data exchange with the external connection. The DAO calls the HttpHelper to send HTTP requests and get HTTP responses with a given URI.
+
 ## Models
 The Tweet model is the DTO used throughout the entire App. It contains returns data from the Twitter API
 response that consists of the other models in the app and other information, such as: idStr, id, 
 created_at, text in the tweet, Coordinates, Entity, RetweetCount, favoriteCount, retweeted and favorited. 
 
 ## Spring
-- How you managed the dependencies using Spring?
+Due to the dependency relationships between classes, Spring was used to manage the dependencies as the current implementation could cause a lot of problems and 
+be very tedious for larger projects. Spring is used to replace the main method of the Twitter application. 
+
+There were three different approaches used; `TwitterCLIBean`, `TwitterCLIComponentScan` and `TwitterCLISpringBoot`.
+- `TwitterCLIBean` uses manually set `@Bean` annotations to indicate dependencies for the application context to fulfil.
+- `TwitterCLIComponentScan` automatically scans the entire project for all dependencies in the application. The Component Scan method of dependency injection given by Spring allows for developers to mark classes that are
+  components of the app that require dependencies, and Spring takes care of setting up dependencies using the constructors of each of the components.
+- `TwitterCLISpringBoot` uses Spring Boot's extended Spring implementation so that the extensive boilerplate from Spring isn't needed.
 
 # Test
-How did you test you app using Junit and mockito?
+To test the app we used JUnit amd Mockito. Firstly JUnit was used to implement integration tests for each component and 
+confirm the app was running as expected based on the environment variables passed in. 
+
+Mockito was used to conduct unit tests on the components to make sure the functions in them could work in failed and successful mock scenarios. 
+Hence, this was used to ensure that the information was being retrieved, used or sent correctly.
 
 ## Deployment
 Firstly, we used maven clean to get rid of any target packages already existing and then used maven
 to package the application into a jar file. Next, we created a Dockerfile and built a 'twitter' image of the
 Twitter app. After running the docker image, it was pushed to DockerHub.
-
 
 # Improvements
 - Allow for multiple tweets to be shown, like the 'delete' option.
