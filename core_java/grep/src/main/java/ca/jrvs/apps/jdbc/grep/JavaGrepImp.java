@@ -41,7 +41,8 @@ public class JavaGrepImp implements JavaGrep {
 
     @Override
     public void process() throws IOException {
-        List matchedLines = listFiles(getRootPath()).stream().flatMap(file -> readLines(file).stream()).filter(this::containsPattern).collect(Collectors.toList());
+        List matchedLines = listFiles(getRootPath()).stream().flatMap(file ->
+                readLines(file).stream()).filter(this::containsPattern).collect(Collectors.toList());
         writeToFile(matchedLines);
     }
 
@@ -77,7 +78,7 @@ public class JavaGrepImp implements JavaGrep {
             reader.close();
             return lines;
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("ERROR: Failed to create BufferedReader", e);
         }
 
         return null;
