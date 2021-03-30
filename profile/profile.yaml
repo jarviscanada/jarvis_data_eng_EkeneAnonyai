@@ -1,11 +1,17 @@
 # Preferred name (Characters only)
-name: "John Smith"
+name: "Ekene Anonyai"
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_EkeneAnonyai
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+summary: I am a recent graduate from the Univeristy of Manitoba with a Bachelor of Science degree in Computer Science.
+  I chose to study Computer Science a few years ago because I was fascinated by technology. In high school, I was taught
+  about computers by a teacher who solidified my love for technology and made me even more certain that I had made the
+  right choice with my major. I am very passionate about solving problems with technology and learning new technologies.
+  Since I joined Jarvis as a Data Engineer trainee, I have worked on different projects utilizing Java 8, Maven,
+  Linux/Bash, Git, Docker, RDBMS/ SQL and Springboot. I am very excited for more opportunities to learn and grow,
+  while contributing meaningfully in the industry.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -19,18 +25,18 @@ skills:
     - Git
   # At least 5 skills
   competent:
-    - Donec
-    - fermentum
-    - Donec
-    - fermentum
-    - Donec
+    - Docker
+    - Maven
+    - Python
+    - JUnit 4
+    - HTML/ CSS
   # At least 5 skills
   familiar:
-    - Donec
-    - fermentum
-    - fermentum
-    - fermentum
-    - fermentum
+    - Google Cloud Platform (GCP)
+    - Springboot
+    - C
+    - Mockito
+    - Android Studio
 
 # List of Jarvis projects
 jarvis_projects:
@@ -38,16 +44,25 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: Developed a Linux Cluster Monitoring Agent that used bash scripts to deploy PostgreSQL database with
+    Docker. Wrote SQL queries to insert Linux server hardware information into the database. Developed a bash agent
+    program that automatically parses hardware specifications and real-time hard usage data, which is sent into
+    the PostgreSQL database. It allows the Jarvis Linux Cluster Administration team to track and manage a Linux cluster.
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "Twitter App: Developed a Java application that allows users to create, fetch, and delete Tweets using the
+      Twitter API. Designed the architecture of the app to carry out these operations on the Tweet object using MVC
+      pattern and Java Spring framework. Implemented Restful APIs and ran unit and integration tests to them.
+      Created a Dockerfile and deployed it to the Docker Hub."
+      - "JDBC App: Developed a Java program that allows for data retrieval from a retail database pertaining to
+      customers and their orders. The app allows for CRUD (Create Read Update Delete) operations to be implemented."
+      - "Grep App: Implemented a Linux grep app in Java that searches every line in a file and outputs every line that
+      matches the regex pattern. Optimized code by using Java Stream API and lambda. Deployed the program as a
+      docker image to the DockerHub."
   - name: "Springboot App"
     git_url: "/springboot"
-    description: ""
+    description: "In Progress"
   - name: "Python Data Analytics"
     git_url: "/python_data_anlytics"
     description: ""
@@ -65,46 +80,58 @@ jarvis_projects:
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Web app for resturant"
+  - name: "Android Marketplace/ Auction app"
     #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
     git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Collaborated with a team of four other members to build a mobile marketplace/ auction app where users
+    can buy, sell, track and own merchandise in a virtual space using Android studio and written in Java.
+  - name: "Course Registration Website"
+    git_url:
+    description: Developed a simple frontend user interface for a course registration website alongside team members
+    using HTML, CSS and JavaScript while keeping Human Computer Interaction principles.
+  - name: "Course Registration Website"
+    git_url:
+    description: Created a 3D hierarchical animation video game that modelled explorers in a gallery with
+    observable exhibits. It included 3D collision checks and texture mapping that brings the gallery to life.
+    Done in processing with the OpenGL API using Java. Included free-look feature which enables the explorer to look
+    around their environment when the mouse is dragged across the screen.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
-  - title: "Software Developer"
-    company: "Jarvis"
-    duration: "2020-present"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+  - title: "Data Engineer"
+    company: "Jarvis Consulting Group"
+    duration: "2021-present"
+    description: "Developing multiple Software projects in a scrum environment following the Software Development Life
+    Cycle using the agile methodology. Projects are built with Linux, Core Java, SpringBoot, Python, and SQL."
+  - title: "Technical Customer Support Advisor"
+    company: "24-7 Intouch"
+    duration: "2020-2021"
+    description: "Mentored new advisors to equip them with the skills and expertise needed to fulfill their work
+    requirements. Resolved technical issues from customers and provided solutions by troubleshooting, diagnosing,
+    setting up repairs and more."
+  - title: "Student Tutor"
+    company: "Nimbus Tutoring"
+    duration: "2018-2020"
+    description: "Conducted one-on-one tutoring sessions for fellow students in Statistics and Calculus to provide
+    solutions in areas of difficulty and consequently, improve their grades."
+  - title: "Software Developer Intern"
+    company: "ActivEdge Technologies"
+    duration: "2017"
+    description: "Strengthened and mastered programming skills by joining the Technology team to develop programs in C,
+    Java, JavaScript, HTML and database concepts"
 
-#List of edcuation
+#List of education
 education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
+  - school_name: "University of Manitoba"
+    duration: "2017-2020"
+    degree: "Bachelor of Science"
+    department: "Computer Science"
     # optional
-    awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
-    awards_achievements: 
+    awards_achievements:
 
 #Optional section
 others:
@@ -112,12 +139,9 @@ others:
   - title: "Certificates"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
+      - "AWS Fundamentals: Going Cloud Native - Coursera (2020)"
   - title: "Activities/Hobbies"
     bullets:
-      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "Music - vocals, song writing, guitar"
+      - "Youtube video editing"
+      - "Cooking"
