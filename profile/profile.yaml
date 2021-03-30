@@ -44,10 +44,10 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Developed a Linux Cluster Monitoring Agent that used bash scripts to deploy PostgreSQL database with
+    description: "Developed a Linux Cluster Monitoring Agent that used bash scripts to deploy PostgreSQL database with
     Docker. Wrote SQL queries to insert Linux server hardware information into the database. Developed a bash agent
     program that automatically parses hardware specifications and real-time hard usage data, which is sent into
-    the PostgreSQL database. It allows the Jarvis Linux Cluster Administration team to track and manage a Linux cluster.
+    the PostgreSQL database. It allows the Jarvis Linux Cluster Administration team to track and manage a Linux cluster."
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
@@ -84,18 +84,18 @@ highlighted_projects:
     #URL is optional
     git_url:
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Collaborated with a team of four other members to build a mobile marketplace/ auction app where users
-    can buy, sell, track and own merchandise in a virtual space using Android studio and written in Java.
+    description: "Collaborated with a team of four other members to build a mobile marketplace/ auction app where users
+    can buy, sell, track and own merchandise in a virtual space using Android studio and written in Java."
   - name: "Course Registration Website"
     git_url:
-    description: Developed a simple frontend user interface for a course registration website alongside team members
-    using HTML, CSS and JavaScript while keeping Human Computer Interaction principles.
+    description: "Developed a simple frontend user interface for a course registration website alongside team members
+    using HTML, CSS and JavaScript while keeping Human Computer Interaction principles."
   - name: "Course Registration Website"
     git_url:
-    description: Created a 3D hierarchical animation video game that modelled explorers in a gallery with
+    description: "Created a 3D hierarchical animation video game that modelled explorers in a gallery with
     observable exhibits. It included 3D collision checks and texture mapping that brings the gallery to life.
     Done in processing with the OpenGL API using Java. Included free-look feature which enables the explorer to look
-    around their environment when the mouse is dragged across the screen.
+    around their environment when the mouse is dragged across the screen."
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).

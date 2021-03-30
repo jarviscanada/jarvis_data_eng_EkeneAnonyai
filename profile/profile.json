@@ -1,0 +1,137 @@
+{
+  "education": [
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor of Science",
+      "department": "Computer Science",
+      "duration": "2017-2020",
+      "school_name": "University of Manitoba"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_EkeneAnonyai",
+  "highlighted_projects": [
+    {
+      "description": "Collaborated with a team of four other members to build a mobile marketplace/ auction app where users can buy, sell, track and own merchandise in a virtual space using Android studio and written in Java.",
+      "git_url": null,
+      "name": "Android Marketplace/ Auction app"
+    },
+    {
+      "description": "Developed a simple frontend user interface for a course registration website alongside team members using HTML, CSS and JavaScript while keeping Human Computer Interaction principles.",
+      "git_url": null,
+      "name": "Course Registration Website"
+    },
+    {
+      "description": "Created a 3D hierarchical animation video game that modelled explorers in a gallery with observable exhibits. It included 3D collision checks and texture mapping that brings the gallery to life. Done in processing with the OpenGL API using Java. Included free-look feature which enables the explorer to look around their environment when the mouse is dragged across the screen.",
+      "git_url": null,
+      "name": "Course Registration Website"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Developed a Linux Cluster Monitoring Agent that used bash scripts to deploy PostgreSQL database with Docker. Wrote SQL queries to insert Linux server hardware information into the database. Developed a bash agent program that automatically parses hardware specifications and real-time hard usage data, which is sent into the PostgreSQL database. It allows the Jarvis Linux Cluster Administration team to track and manage a Linux cluster.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": [
+        "Twitter App: Developed a Java application that allows users to create, fetch, and delete Tweets using the Twitter API. Designed the architecture of the app to carry out these operations on the Tweet object using MVC pattern and Java Spring framework. Implemented Restful APIs and ran unit and integration tests to them. Created a Dockerfile and deployed it to the Docker Hub.",
+        "JDBC App: Developed a Java program that allows for data retrieval from a retail database pertaining to customers and their orders. The app allows for CRUD (Create Read Update Delete) operations to be implemented.",
+        "Grep App: Implemented a Linux grep app in Java that searches every line in a file and outputs every line that matches the regex pattern. Optimized code by using Java Stream API and lambda. Deployed the program as a docker image to the DockerHub."
+      ],
+      "git_url": "/core_java",
+      "name": "Core Java Apps"
+    },
+    {
+      "description": "In Progress",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    },
+    {
+      "description": "",
+      "git_url": "/python_data_anlytics",
+      "name": "Python Data Analytics"
+    },
+    {
+      "description": "",
+      "git_url": "/hadoop",
+      "name": "Hadoop"
+    },
+    {
+      "description": "",
+      "git_url": "/spark",
+      "name": "Spark"
+    },
+    {
+      "description": "",
+      "git_url": "/cloud_devops",
+      "name": "Cloud/DevOps"
+    }
+  ],
+  "name": "Ekene Anonyai",
+  "others": [
+    {
+      "bullets": [
+        "AWS Fundamentals: Going Cloud Native - Coursera (2020)"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Music - vocals, song writing, guitar",
+        "Youtube video editing",
+        "Cooking"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis Consulting Group",
+      "description": "Developing multiple Software projects in a scrum environment following the Software Development Life Cycle using the agile methodology. Projects are built with Linux, Core Java, SpringBoot, Python, and SQL.",
+      "duration": "2021-present",
+      "title": "Data Engineer"
+    },
+    {
+      "company": "24-7 Intouch",
+      "description": "Mentored new advisors to equip them with the skills and expertise needed to fulfill their work requirements. Resolved technical issues from customers and provided solutions by troubleshooting, diagnosing, setting up repairs and more.",
+      "duration": "2020-2021",
+      "title": "Technical Customer Support Advisor"
+    },
+    {
+      "company": "Nimbus Tutoring",
+      "description": "Conducted one-on-one tutoring sessions for fellow students in Statistics and Calculus to provide solutions in areas of difficulty and consequently, improve their grades.",
+      "duration": "2018-2020",
+      "title": "Student Tutor"
+    },
+    {
+      "company": "ActivEdge Technologies",
+      "description": "Strengthened and mastered programming skills by joining the Technology team to develop programs in C, Java, JavaScript, HTML and database concepts",
+      "duration": "2017",
+      "title": "Software Developer Intern"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Docker",
+      "Maven",
+      "Python",
+      "JUnit 4",
+      "HTML/ CSS"
+    ],
+    "familiar": [
+      "Google Cloud Platform (GCP)",
+      "Springboot",
+      "C",
+      "Mockito",
+      "Android Studio"
+    ],
+    "proficient": [
+      "Java",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "I am a recent graduate from the Univeristy of Manitoba with a Bachelor of Science degree in Computer Science. I chose to study Computer Science a few years ago because I was fascinated by technology. In high school, I was taught about computers by a teacher who solidified my love for technology and made me even more certain that I had made the right choice with my major. I am very passionate about solving problems with technology and learning new technologies. Since I joined Jarvis as a Data Engineer trainee, I have worked on different projects utilizing Java 8, Maven, Linux/Bash, Git, Docker, RDBMS/ SQL and Springboot. I am very excited for more opportunities to learn and grow, while contributing meaningfully in the industry."
+}
