@@ -23,7 +23,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_EkeneAnony
   - JDBC App: Developed a Java program that allows for data retrieval from a retail database about customers and their orders. The app allows for CRUD (Create Read Update Delete) operations to be implemented
   - Grep App: Implemented a Linux grep app in Java that searches every line in a file and outputs every line that matches the regex pattern. Optimized code by using Java Stream API and lambda. For deployment, the program was dockerized into a docker image and deployed to the DockerHub for public access.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_EkeneAnonyai/tree/master/springboot)]: In Progress
+**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_EkeneAnonyai/tree/master/springboot)]: Developed a Proof of Concept trading system for stock traders based on a three-tier microservice architecture in order to move away from the monolithic architecture the legacy trading system was based on. The system allows users to manage client profiles and accounts, monitor portfolio performance, and trade securities. The system was implemented in Java8 using Springboot, JUnit, and Mockito for coding and testing, Docker and Maven for packaging and deployment. While using a Postgres database to store the data. REST API endpoints from IEX Cloud allowed for the system to handle HTTP requests/send out HTTP responses accordingly, managing all the business and core logic of the application.
 
 **Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_EkeneAnonyai/tree/master/python_data_analytics)]: Not Started
 
