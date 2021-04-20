@@ -1,4 +1,14 @@
+<<<<<<< HEAD
 # Ekene Anonyai . Jarvis Consulting
+=======
+# Jarvis Data Engineering Training
+1. [Linux cluster monitoring agent (Linux and SQL)](./linux_sql) Completed
+2. [Core Java Apps](./core_java) Completed
+3. [Springboot Trading REST API](./springboot) Completed
+4. [Hadoop/Hive](./hadoop) In-progress
+5. [Spark/Scala](./spark) In-progress
+6. [Cloud/DevOps](./cloud_devops) In-progress
+>>>>>>> develop
 
 I am a recent graduate from the University of Manitoba with a Bachelor of Science degree in Computer Science. I chose to study Computer Science a few years ago because I was fascinated by technology. Since joining Jarvis as a Data Engineer trainee, I have worked on different projects utilizing Java 8, Maven, Linux/Bash, Git, Docker, RDBMS/ SQL and Springboot.In high school, I was taught about computers by a teacher who solidified my love for technology and made me even more convinced that I had made the right choice with my major. I am very passionate about solving problems with technology and learning new technologies. I am very excited for more opportunities to learn and grow while contributing meaningfully to the industry.
 
