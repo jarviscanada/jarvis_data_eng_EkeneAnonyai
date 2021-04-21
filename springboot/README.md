@@ -18,7 +18,7 @@ allowed for the system to handle HTTP requests/send out HTTP responses according
 logic of the application. 
 
 Some other technologies used in this app were:
-- Apache Tomcat for the webapplet that maps REST requests to Java controller classes
+- Apache Tomcat for the webservlet that maps REST requests to Java controller classes
 - PSQL for storing quote and trader account/profile/portfolio information
 - JDBC for interacting with PSQL
 - Swagger to implement the web service that connects our API to a front end
@@ -62,37 +62,60 @@ docker run --name ekeneanonyai-trading-app-local \
 ```
 * **Navigate to http://localhost:8080/swagger-ui.html in your browser**
   ![Swagger](assets/Swagger_UI.png)
-    * **Stopping the Containers**
 
 # Implemenation
 ## Architecture
-- Draw a component diagram that contains controllers, services, DAOs, SQL, IEX Cloud, WebServlet/Tomcat, HTTP client, and SpringBoot. (you must create your own diagram)
-- briefly explain the following components and services (3-5 sentences for each)
-    - Controller layer (e.g. handles user requests....)
-    - Service layer
-    - DAO layer
-    - SpringBoot: webservlet/TomCat and IoC
-    - PSQL and IEX
+![Architecture Diagram](assets/ComponentDiagram.png)
+Controller layer: handles HTTP requests and is responsible for controlling the application and its logic. It acts as a communicator, getting data from the API requests, converting it into a more desirable form and then passing it onto the service layer.
+Service layer: handles all the business logic. It receives data from the controller layer and performs tasks such as validating the data and the called resources and then passing the data onto the DAO layer for further processing.
+DAO layer: performs CRUD operations on the database and IEX system using the DAO data access pattern.
+SpringBoot: handles dependency injection for the application and provides the Tomcat web servlet which handles the REST API requests. Tomcat provides a pure Java HTTP web server environment to handle client HTTP requests.
+PSQL and IEX: PSQL is used as the database to persist application data and IEX cloud is used as the stock market data source.
 
 ## REST API Usage
 ### Swagger
-What's swagger (1-2 sentences, you can copy from swagger docs). Why are we using it or who will benefit from it?
+Swagger is a set of open-source tools built around the OpenAPI Specification that can help design,
+build, document and consume REST APIs. It is a powerful tool that assists in the entire development
+cycle of the API.
+
+The Swagger UI allows anyone to visualize and interact with the API's resources without having any of the implementation 
+logic in place. It's automatically generated from the OpenAPI (formerly known as Swagger) Specification, with the visual 
+documentation for back end implementation and client side consumption. Swagger is used to facilitate the design, building, 
+documentation, and use of RESTful web services. Swagger includes automated documentation, code generation, and test-case 
+generation.
+
 ### Quote Controller
-- High-level description for this controller. Where is market data coming from (IEX) and how did you cache the quote data (PSQL). Briefly talk about data from within your app
-- briefly explain each endpoint
-  e.g.
-    - GET `/quote/dailyList`: list all securities that are available to trading in this trading system blah..blah..
+The quote controller allows the fetching of quote information from the IEX and stores it into the PSQL database as well as updating existing quotes
+in the database.
+- **GET** `/dailyList`: Lists all securities that are available for trading in this trading system.
+- **POST** `/tickerId/{tickerId}`: Adds a security with the provided ticker to the daily list and persists it in the database quote table so
+  that it can be traded later.
+- **GET** `/iex/ticker/{ticker}`: Displays all the quote information for the security with a given ticker, the data is pulled from the IEX.
+- **PUT** `/iexMarketData`: Fetches the updated information from IEX and updates the saved quote information.
+- **POST** `/`: Inserts a quote object directly into the quote table in the PSQL database.
 ### Trader Controller
-- High-level description for trader controller (e.g. it can manage trader and account information. it can deposit and withdraw fund from a given account)
-- briefly explain each endpoint
+The trader controller allows the user to create and delete traders and accounts stored in the PSQL database. It also allows the user to deposit
+or withdraw funds in the trader's account.
+- **POST** `/firstname/{firstname}/lastname/{lastname}/dob/{dob}/country/{country}/email/{email}`: Creates a trader with given information and saves
+  it to the trader table in the database with an account that is tied to the trader.
+- **POST** `/`: Inserts a trader object directly into the trader table in the PSQL database.
+- **DELETE** `/traderId/{traderId}`: Delete a trader with the given traderId as well as the account that is linked to that trader. The trader's
+  account must be empty and they must have no open positions.
+- **PUT** `/deposit/traderId/{traderId}/amount/{amount}`: Deposit the specified amount into the trader's account. Must be a positive number.
+- **PUT** `/withdraw/traderId/{traderId}/amount/{amount}`: Withdraw the specified amount from the trader's account. Must be a positive number and
+  cannot be more money than the trader has in the account.
 ### Order Controller
-- High-level description for this controller.
-- briefly explain each endpoint
+The order controller handles placing of market orders for the specified securities.
+- **POST** `/marketOrder`: Takes the marketOrderDto passed to the request and either buys it or sells, if the passed amount is positive it
+  indicates a buy order and vice versa for a negative amount). If the ticker or accountId is invalid, or the account balance is insufficient
+  then the request will fail.
 ### App controller
-- briefly explain each endpoint
-### Optional(Dashboard controller)
-- High-level description for this controller.
-- briefly explain each endpoint
+This controller handles an HTTP request that inquires whether the app is working normally
+- **GET** `/health`: shows whether the app is working normally or not.
+### Dashboard controller
+This controller is used to get different views depending on the traderId passed to the request.
+- **GET** `/profile/traderId/{traderId}`: Shows the profile (trader info and account info) of the trader with the given id.
+- **GET** `/portfolio/traderId/{traderId}`: Shows the portfolio (list of securities that the trader has a position in) of the trader with the given id.
 
 # Test
 The application was tested using JUnit4 through integration tests at the DAO and Service layers, and unit tests where possible 
